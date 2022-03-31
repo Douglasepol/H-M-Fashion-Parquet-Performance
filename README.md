@@ -13,9 +13,15 @@ O dataset está disponível no link (www.kaggle.com/datasets/tbierhance/hm-fashi
 O notebook está subdividido nas seguintes etapas:
 
 1) Aquisição dos dados
+- Nessa etapa os arquivos .parquet são importados utilizando o método read_parquet() da biblioteca Pandas.
+- É realizado a verificação dos dataframes e um tratamento em relação ao arquivo customers.parquet que apresenta uma inconsistência.
 
 2) Análise exploratória
+- Na análise exploratório foi realizada a integração dos dataframes e verificado a existência de valores nulos.
+- Como melhoria, devem ser inseridos alguns gráficos para verificar o comportamento de algumas variáveis. 
+- Além de verificar algumas métricas estatísticas para realizar algum tratamento, caso seja necessário.
 
 3) Descoberta de Insights
+- Nessa etapa, algumas perguntas foram levantadas sobre os dados e as respostas obtidas foram utilizadas para a construção de dashboard no Power BI.
 
 4) Apresentação de Insights em um dashboard do Power BI (https://app.powerbi.com/view?r=eyJrIjoiNmNlZGFhN2YtNzA5Zi00NmEwLTk4MDAtMThkYWU0YWI5YjE1IiwidCI6ImQ0MmJlNTIzLTg5ZDQtNGUwMi1hNjJiLWE0MzFhZGZmOTMyMSJ9&pageName=ReportSection)
